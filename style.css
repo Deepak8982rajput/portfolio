@@ -354,6 +354,7 @@ h3 {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    height: 70vh;
 }
 
 .sub-title {
@@ -407,6 +408,7 @@ h3 {
 /* Contact Right Styles */
 .contact-Right {
     flex: 1;
+    height: 70vh;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
