@@ -140,6 +140,27 @@ nav ul li a:hover::after {
 
 
 
+#resume {
+    display: inline-block;
+    
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0.1px solid #3498db; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    color: #ffffff; /* Text color */
+    background-color: #bcddf4; /* Background color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect */
+  #resume:hover {
+    background-color: #ffffff; /* Background color on hover */
+    color: #3498db; /* Text color on hover */
+  }
 
 .serviceOuter {
     align-items: center;
@@ -278,10 +299,11 @@ nav ul li a:hover::after {
 .sub-title {
     font-size: 36px;
     margin-top: 10px;
+    color: #fff;
 }
 
 .sub-title span {
-    color: #e74c3c;
+    color: #f76e5f;
 }
 .about-container{
     display: flex;
@@ -328,6 +350,9 @@ h3 {
     font-size: 20px;
     color: #2ecc71;
 }
+
+
+
 #Contact {
     background-color: #f4f4f4;
     padding: 50px 0;
@@ -336,6 +361,7 @@ h3 {
 .Container {
     width: 80%;
     margin: 0 auto;
+    height: auto;
 }
 
 .row {
@@ -354,11 +380,7 @@ h3 {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    height: 70vh;
-}
-
-.sub-title {
-    color: #333;
+    height: 100%;
 }
 
 .contact-left p {
@@ -408,7 +430,6 @@ h3 {
 /* Contact Right Styles */
 .contact-Right {
     flex: 1;
-    height: 70vh;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -452,7 +473,6 @@ button:hover {
 }
 
 /* Media Queries */
-
 @media screen and (max-width: 1024px) {
     nav ul li a {
         font-size: 14px;
@@ -466,26 +486,8 @@ button:hover {
         font-size: 24px;
     }
 
-    .box-header {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
-
-    .box h3 {
-        font-size: 20px;
-        padding: 10px 0;
-    }
-
-    .box p {
-        font-size: 14px;
-    }
-
     .sub-title {
         font-size: 28px;
-    }
-
-    .experience-sub-title {
-        font-size: 20px;
     }
 
     article {
@@ -499,10 +501,6 @@ button:hover {
 
     .contact-left {
         margin-right: 20px;
-    }
-
-    .contact-left p {
-        font-size: 14px;
     }
 
     .contact-Right form {
@@ -541,26 +539,8 @@ button:hover {
         font-size: 22px;
     }
 
-    .box-header {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-
-    .box h3 {
-        font-size: 18px;
-        padding: 10px 0;
-    }
-
-    .box p {
-        font-size: 14px;
-    }
-
     .sub-title {
         font-size: 24px;
-    }
-
-    .experience-sub-title {
-        font-size: 18px;
     }
 
     article {
@@ -575,10 +555,6 @@ button:hover {
     .contact-left {
         flex: 1;
         margin-right: 10px;
-    }
-
-    .contact-left p {
-        font-size: 14px;
     }
 
     .contact-Right {
